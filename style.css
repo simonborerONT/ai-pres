@@ -1,0 +1,27 @@
+nav ul li {
+    list-style: none;
+}
+nav ul ul li {
+    list-style: square;
+}
+nav ul ul {
+    font-size: .8em;
+    filter: brightness(150%);
+}
+.reveal strong {
+    background-color: #d33682;
+}
+.reveal strong::selection {
+    filter: brightness(-75%);
+    background-color: #b72d70;
+}
+figure {
+    margin: 0 1em;
+}
+figcaption {
+    font-size: .8rem;
+    font-style: italic;
+}
+.callout {
+    backdrop-filter: brightness(1.25);
+}
